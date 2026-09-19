@@ -1,0 +1,47 @@
+{
+  "name": "stripe-checkout-webhooks",
+  "version": "1.0.0",
+  "description": "Stripe Checkout + webhooks patterns for AI coding agents by HACODE SOLUTIONS",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "stripe",
+    "checkout",
+    "webhooks",
+    "payments",
+    "ai",
+    "devspec",
+    "hacode-solutions"
+  ],
+  "author": "HACODE SOLUTIONS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hacod-solutions/stripe-checkout-webhooks"
+  },
+  "homepage": "https://hacode.solutions",
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "stripe": "^17.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "^15.0.0",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
